@@ -1,6 +1,6 @@
-# POSIX Threads: Single Thread Example
+# POSIX Threads: MultiThreading Example
 
-## 📌 File: `singlethread.c`
+## 📌 File: `singlethread.c` 'multithread.c'
 
 ### 👨‍💻 Author
 **Logesan Nandakoumar**    
@@ -30,4 +30,6 @@ It includes:
 
 
 gcc -pthread -o singlethread singlethread.c
+gcc -pthread -o multithread multithread.c
 ./singlethread
+./multithread
